@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1d;
+  color: #f1f1f1;
+  font-family: "Inter", helvetica, arial, sans-serif;
+}
+
+.mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+#app {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+#app ul li {
+  display: block;
+  list-style: none;
+}
+
+#app ul li a {
+  display: block;
+  padding: 2rem;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+  text-align: left;
+}
+#app ul li a:hover {
+  background-color: #661be0 !important;
+}
