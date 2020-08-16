@@ -7,7 +7,7 @@
 body {
   background-color: #1d1d1d;
   color: #f1f1f1;
-  font-family: "Inter", helvetica, arial, sans-serif;
+  font-family: "Inter", -apple-system, helvetica, arial, sans-serif;
 }
 
 .mono {
