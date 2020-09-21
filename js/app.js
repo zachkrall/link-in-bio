@@ -12,9 +12,14 @@ const linkTemplate = (e, i, a) => {
 
 const links = [
   {
-    title: "🆕 Help a black trans man raise money for safe housing",
-    description: "",
-    url: "https://4asafehaven.glitch.me/",
+    title: "No 911 NYC",
+    description: "Community Based Alternatives to the Police",
+    url: "https://no911.nyc/",
+  },
+    {
+    title: "DEL 2020 Conference",
+    description: "Digitally Engaged Learning Conference",
+    url: "http://www.digitallyengagedlearning.net/2020/",
   },
   {
     title: "Portfolio",
