@@ -3,7 +3,7 @@ const app = document.querySelector("#app")
 const linkTemplate = (e, i, a) => {
   return `<li><a href="${e.url}" style="background-color:hsl(200,0%, ${
     i * 5 + 10
-  }%);min-height:${100 / a.length}vh;">
+  }%);">
   <h2>${e.title}</h2>
   <p>${e.description}</p>
   <div class="mono">${e.url}</div>
@@ -11,6 +11,11 @@ const linkTemplate = (e, i, a) => {
 }
 
 const links = [
+  {
+    title: "COVID Alert NY",
+    description: "New York State Contact Tracing App",
+    url: "https://CovidAlertNY.health.ny.gov"
+  },
   {
     title: "No 911 NYC",
     description: "Community Based Alternatives to the Police",
