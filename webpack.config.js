@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin')
 
 module.exports = {
-  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+  mode: 'production',
   entry: [path.resolve(__dirname, 'src', 'index.tsx')],
   output: {
     path: path.resolve(__dirname, 'public')
@@ -46,10 +46,7 @@ module.exports = {
     })
   ],
   output: {
-    path:
-      process.env.NODE_ENV === 'production'
-        ? path.join(__dirname)
-        : path.join(__dirname, 'public'),
+    path: path.join(__dirname, 'public'),
     publicPath: '/'
   },
   devServer: {
