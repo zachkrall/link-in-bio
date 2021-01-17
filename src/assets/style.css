@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;800;900&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800;900&family=Roboto+Mono:wght@300&display=swap');
 
 * {
   margin: 0;
@@ -54,19 +54,23 @@ a.link {
   border-radius: 10px;
 }
 a.link:hover {
-  background-color: #661be0 !important;
+  color: #0000ff;
 }
 a.link .title {
-  font-weight: 500;
+  font-weight: 600;
+}
+a.link .description {
+  opacity: 0.7;
 }
 a.link .url {
   display: block;
   width: 100%;
 
-  font-size: 0.98em;
+  font-size: 0.8em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: 'Roboto Mono', monospace;
   opacity: 0.5;
+  letter-spacing: -0.003em;
 }
