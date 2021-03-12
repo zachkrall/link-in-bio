@@ -1,16 +1,10 @@
 export default {
   teaching: [
     {
-      title: 'JavaScript: Introductory',
-      description: '1/25/2021 - 3/1/2021 (Mon & Wed)',
+      title: 'CSS3 & HTML5',
+      description: '3/13/2021 - 4/24/2021 (Saturday)',
       url:
-        'https://registration.baruchcaps.com/baruch/course/course.aspx?C=1028'
-    },
-    {
-      title: 'JavaScript: Intermediate',
-      description: '3/8/2021 - 4/7/2021 (Mon & Wed)',
-      url:
-        'https://registration.baruchcaps.com/baruch/course/course.aspx?C=4140&pc=43&mc='
+        'https://registration.baruchcaps.com/baruch/course/course.aspx?C=3883'
     }
   ],
   resources: [
